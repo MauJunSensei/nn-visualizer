@@ -1,0 +1,32 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (for PyO3 integration)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.log
+*.tmp
+*.bak
+
+# Ignore local data
+/data/
